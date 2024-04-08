@@ -31,7 +31,7 @@
                     </select> -->
 
                     <div class="card-header">
-                        <h3 class="card-title">Courier</h3>
+                        <h3 class="card-title">Couriers used in Bookings </h3>
                     </div>
                     <div style="width:100%;max-width:600px">
                         <canvas id="courier"></canvas>
@@ -40,7 +40,7 @@
                 <div class="card-body table-responsive">
 
                     <div class="card-header">
-                        <h3 class="card-title">Courier Services</h3>
+                        <h3 class="card-title">Courier Services used in Bookings </h3>
                     </div>
                     <div style="width:100%;max-width:600px">
                         <canvas id="courier_service"></canvas>
@@ -74,10 +74,13 @@
 
         var barColors = [
             "#b91d47",
+            "#7E210D",
             "#00aba9",
             "#2b5797",
             "#e8c3b9",
-            "#1e7145"
+            "#1e7145",
+            "#7E0D72",
+            "#CC3A54"
         ];
 
         // Destroy existing chart if it exists
