@@ -1,0 +1,9 @@
+// @import '../../node_modules/@isneezy/vue-selectize/dist/vue-selectize.css'
+@import '../../node_modules/vue-select/dist/vue-select.css';
+@import '../../node_modules/flatpickr/dist/flatpickr.min.css';
+@import '../../node_modules/vue-loading-overlay/dist/vue-loading.css';
+
+.btn-group, .btn-group-vertical {
+    float: right;
+    // margin: 32px;
+}

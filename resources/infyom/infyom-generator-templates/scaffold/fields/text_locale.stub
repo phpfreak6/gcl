@@ -1,0 +1,13 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="col-md-3 col-sm-6">
+    <div class="form-group">
+        {!! Form::label('$FIELD_NAME$', __('models/$TABLE_NAME$.fields.$FIELD_NAME$').':') !!}
+        {!! Form::text('$FIELD_NAME$', null, ['class' => ($errors->has('$FIELD_NAME$')) ? 'form-control is-invalid' : 'form-control'$SIZE$]) !!}
+        @if ($errors->has('$FIELD_NAME$'))
+            <span class="invalid-feedback">
+                <strong>{{ $errors->first('$FIELD_NAME$') }}</strong>
+            </span>
+        @endif
+    </div>
+</div>
+

@@ -1,0 +1,109 @@
+.btn-primary {
+    color: #fff;
+    background-color: #c2932f;
+    border-color: #c2932f;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3c3d3e !important;
+    border-color: #3c3d3e !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3c3d3e !important;
+    border-color: #3c3d3e !important;
+}
+p a {
+    color: #c2932f !important;
+}
+p a:hover {
+    color: #3c3d3e !important;
+}
+.card-primary.card-outline {
+    border-top: 3px solid #c2932f;
+}
+.k-dash .small-box > .inner{
+    min-height: 170px;
+}
+a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
+    background-color: #3c3d3e !important;
+    color: #fff !important;
+}
+.k-icon-list{
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+}
+.small-box .icon > i.fa, .small-box .icon > i.fas, .small-box .icon > i.far, .small-box .icon > i.fab, .small-box .icon > i.glyphicon, .small-box .icon > i.ion {
+    font-size: 70px;
+    top: 20px;
+}
+
+.small-box .icon > img {
+    font-size: 90px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: all 0.3s linear;
+}
+[class*='sidebar-dark-']{
+    background-color: #000;
+}
+.k-small{
+    margin-top: 0 !important;
+    float: right;
+}
+.small-box h5{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+p.k-available{
+    color: #fff;
+    background-color: #28a745;
+    margin-bottom: 0;
+    padding: 0px 10px;
+    width: 70%;
+    font-size: 16px;
+}
+.k-available-red{
+    color: #fff;
+    background-color: #dc3545;
+    margin-bottom: 0;
+    padding: 0px 10px;
+    width: 70%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.small-box p.k-available-red {
+    font-size: 0.9rem;
+}
+.small-box p.k-available {
+    font-size: 0.9rem;
+}
+.k-card-small{
+    padding: 15px;
+    text-align: center;
+}
+.k-card-small i{
+    font-size: 70px;
+}
+.k-card-small p{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.small-box{
+    border: 2px solid #848484;
+}
+.info-box .info-box-number {
+    display: block;
+    font-weight: 700;
+    font-size: 28px;
+}
+.info-box .progress-description{
+    font-size: 14px !important;
+}
+.info-box-content h4{
+    padding-top: 12px;
+    font-weight: 600;
+}
